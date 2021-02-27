@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Baroque</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body onclick="next1()" id="body">
+		<div id="common">
+			<div class="karambolage-rect"></div>
+			<div class="karambolage-circle" id="karambolage-circle"></div>
+			<div class="desc" id="desc">
+				<h1>Le mouvement littéraire Baroque</h1>
+				<p>Qu'est-ce que le Baroque ?</p>
+				<p style="font-size: 1rem;">» Cliquer pour continuer</p>
+			</div>
+		</div>
+		<div id="slide1" style="display: none; padding-top: 20vh; text-align: center; text-align: center; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 3rem;">
+				<div style="flex-basis: 6rem;">1580</div>
+				<div style="flex-basis: 24rem;" id="baroque-slide1">Baroque</div>
+				<div style="flex-basis: 6rem;">1660</div>
+			</div>
+			<p>Le Baroque est un mouvement artistique qui a vu le jour en Italie au milieu du XVI<sup>e</sup> siècle. <br />
+			Il s'est progressivement étendu dans toute l'Europe et dans plusieurs disciplines :</p>
+			<!--<p id="europe">Europe</p>-->
+		</div>
+		<div id="slide2" style="display: none; padding-top: 16vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 2rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="flex-basis: 12rem; color: #f00;" id="architecture">Architecture
+				<figure style="width: 100%;">
+					<img src="Fontaine-Trevi.jpg" width="320" />
+					<figcaption>Fontaine de Trevi <br />(Rome, 1732-1762, Nicola Salvi et Giuseppe Pannini)</figcaption>
+				</figure>
+				</div>
+				<div style="flex-basis: 12rem; color: #ed7" id="sculpture">Sculpture
+				<figure style="width: 100%; animation-delay: 4s;">
+					<img src="Pegase.jpg" width="320" />
+					<figcaption>Pegasus (Jardin des Tuileries)</figcaption>
+				</figure>
+				</div>
+				<div style="flex-basis: 12rem; color: #25b873" id="peinture">Peinture
+				<figure style="width: 100%; animation-delay: 8s;">
+					<img src="Medicis.jpg" width="320" />
+					<figcaption>L'apothéose des Médicis de Luca Giordano <br />(palais Medici-Riccardi, Florence, vers 1672, Luca Giordano)</figcaption>
+				</figure>
+				</div>
+			</div>
+		</div>
+		<div id="slide3" style="display: none; padding-top: 20vh; text-align: center; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 2rem; justify-content: space-around;">
+				<div style="flex-basis: 12rem; color: #92d;" id="musique">Musique & Danse
+				<figure>
+					<video width="240" height="auto" controls>
+						<source src="Bach.oga" type="video/oga">
+						Your browser dœs not support the video tag.
+					</video>
+					<figcaption>Concerto brandebourgeois n°4, premier mouvement<br />Jean-Sebastian Bach</figcaption>
+				</figure>
+				</div>
+				<div style="flex-basis: 12rem; color: #92d;" id="danse">
+				<figure style="width: 100%;">
+					<img src="danse-baroque.jpg" width="320" />
+					<figcaption>Danse baroque</figcaption>
+				</figure>
+				</div>
+			</div>
+		</div>
+		<div id="slide4" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 2rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="flex-basis: 12rem; color: #2573b8;" id="theatre">Théâtre
+				<figure style="width: 100%;">
+					<img src="Hamlet.jpg" width="320" />
+					<figcaption>Hamlet, William Shakespeare</figcaption>
+				</figure>
+				</div>
+				<div style="flex-basis: 32rem; color: #fc3;" id="litterature">Littérature & Poésie
+				<blockquote>
+					« Et la mer et l'amour ont l'amer pour partage,<br />
+					Et la mer est amère, et l'amour est amer,<br />
+					L'on s'abîme en l'amour aussi bien qu'en la mer,<br />
+					Car la mer et l'amour ne sont point sans orage.<br /><br />
+
+					Celui qui craint les eaux qu'il demeure au rivage,<br />
+					Celui qui craint les maux qu'on souffre pour aimer,<br />
+					Qu'il ne se laisse pas à l'amour enflammer,<br />
+					Et tous deux ils seront sans hasard de naufrage.<br /><br />
+
+					La mère de l'amour eut la mer pour berceau,<br />
+					Le feu sort de l'amour, sa mère sort de l'eau,<br />
+					Mais l'eau contre ce feu ne peut fournir des armes.<br /><br />
+
+					Si l'eau pouvait éteindre un brasier amoureux,<br />
+					Ton amour qui me brûle est si fort douloureux,<br />
+					Que j'eusse éteint son feu de la mer de mes larmes. »
+				</blockquote>
+				<p style="font-size: 1.5rem;"><i>À Philis</i>, Recueil de Vers,<br /> Pierre de Marbeuf, 1628</p>
+				</div>
+			</div>
+		</div>
+		<div id="slide5" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 2rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="margin: 2rem;">
+					Le terme « baroque » proviendrait du portugais <i class="blue">barroco</i> qui désigne une perle irrégulière.<br /><br />
+					Cette difformité observée en joaillerie s'est alors appliquée aux œuvres caractérisées par une exagération, une ornementation excessive,
+					 une surchage décorative, une exubérance des formes ou encore tout ce qui pouvait relever du
+					 « <sup class="blue">b</sup>i<sub class="yellow">z<i>a</i></sub><sup class="red">r<i class="green">r</i>e</sup> » ou de l'étrangeté.<br /><br />
+					La littérature baroque n'échappe pas à la règle : les thèmes abordés traduisent la volonté de<br />
+					 <b class="red text-wave">bousculer les certitudes</b>,
+					  <b class="blue text-wave" style="animation-delay: 1s;">heurter les consciences</b>,
+					 <b class="yellow text-wave" style="animation-delay: 2s;">exalter les sensations</b>.
+				</div>
+			</div>
+		</div>
+		<div id="slide6" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 3rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="margin: 2rem;">
+					<p class="left-come">
+					Ce mouvement littéraire puise son inspiration dans les bouleversements historiques, philosophiques et politiques survenus en Europe au XVI<sup>e</sup> siècle, qui vont instaurer un fort
+					 sentiment<br /> d'<span class="top-come blue" style="animation-delay: 1s;">instabilité</span>,
+					  <span class="top-come green" style="animation-delay: 2s;">un chaos</span>,
+					  <span class="top-come yellow" style="animation-delay: 3s;">une insécurité</span>.</p>
+					 
+					 <p>Le monde n'est qu'illusion et les apparences sont trompeuses.</p>
+				</div>
+			</div>
+		</div>
+		<div id="slide7" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="margin: 2rem;">
+					<h3>Des événements historiques</h3>
+					<p>Des guerres de religion avec la Réforme protestante et la Contre-Réforme catholique opposent catholiques et protestants dans leurs valeurs
+					 et leurs représentations : l'austère et sobre style du protestantisme contre le grandiose et riche style du catholicisme.</p>
+					<div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around;">
+						<figure width="320">
+							<img src="Église-Steyr.jpg" width="100%" />
+							<figcaption width="100%">Intérieur d'une église catholique (Autriche)</figcaption>
+						</figure>
+						<figure width="320">
+							<img src="Église-Montauban.jpg" width="100%" />
+							<figcaption width="100%">Intérieur d'une église protestante (Montauban)</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="slide8" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around; text-shadow: 0 0 .2rem #999;">
+				<div style="margin: 2rem;"><div style="z-index: 2; position: relative;">
+					<h3>Des bouleversements scientifiques</h3>
+					<ul style="margin-left: 12rem;"><li>Le progrès technique (par exemple l'astrolabe, la caravelle ou encore le microscope optique)</li><br />
+					<li>Les Grandes Découvertes (Christophe Colomb et les Amériques en 1492, Jacques
+					 Cartier et le Canada en 1534, Magellan à partir de 1519, etc.).</li></ul>
+					<div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around">
+					<div class="circle" id="caravelle"> </div>
+					<div class="circle" id="astrolabe"> </div>
+					<div class="circle" id="microscope"> </div>
+					</div></div>
+					<iframe src="lighthouse.html" width="100%" height="100%" style="position: absolute; top: 0; left: 0; z-index: 1;"></iframe>
+				</div>
+			</div>
+		</div>
+		<div id="slide9" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
+					<div id="solar-system" style="margin: -8rem;">
+				<div id="neptune-circle">
+				</div>
+				<div id="uranus-circle">
+				</div>
+				<div id="saturn-circle">
+				</div>
+				<div id="jupiter-circle">
+				</div>
+				<div id="mars-circle">
+				</div>
+				<div id="earth-circle">
+				</div>
+				<div id="venus-circle">
+				</div>
+				<div id="mercury-circle">
+				</div>
+				<div id="sun">
+				</div>
+				</div>
+				<div style="margin: 2rem; text-shadow: 0 0 .2rem #999; flex-basis: 36rem;">
+					<h3>Et la révolution en astronomie</h3>
+					<p>Des avancées scientifiques majeures : Nicolas Copernic contredit le géocentrisme en
+					privilégiant l'<span class="yellow">héliocentrisme</span> : <br />le Soleil est au centre de l'Univers !</p>
+				</div>
+			</div>
+		</div>
+		<div id="slide10" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="margin: 2rem;" class="crash">
+					Les esprits et les sens sont chamboulés :<br />
+					le monde est perçu comme illusoire, changeant, incertain, en transformation, en mouvement instable.<br /><br />
+					Ce déséquilibre va alors nourrir l'imagination des auteurs littéraires.
+				</div>
+			</div>
+		</div>
+		<div id="slide11" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="flex-basis: 20rem;">
+					<figure>
+						<img src="Vanité.jpeg" style="float: right; width: 100%;" />
+						<figcaption><i>Vanité</i>, thème baroque. Huile sur toile de Bartholomaeus Bruyn le Vieux (1524).</figcaption>
+					</figure>
+				</div>
+				<div style="flex-basis: 36rem;">
+					<p>Des thèmes récurrents se dégagent des différentes œuvres: 
+					<ul>
+						<li>L'illusion, le rêve (les sens nous trompent)</li>
+						<li>Le changement, la métamorphose (du monde et de l'être)</li>
+						<li>L'instabilité</li>
+						<li>La duplicité</li>
+						<li>Le bizarre</li>
+						<li>Le grandiose</li>
+					</ul>
+					La mort est également très présente.</p>
+					
+					<p>Ces thèmes sont dérivés de 4 principes d'écriture :
+					<ul>
+						<li>Mélanger les genres et les registres</li>
+						<li>Exprimer les hésitations du Moi et l’instabilité du monde</li>
+						<li>Mêler les contraires jusqu’à les confondre</li>
+						<li>Exprimer l’excès et l’extrême</li>
+					</ul></p>
+				</div>
+			</div>
+		</div>
+		<div id="slide12" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="margin: 2rem;">
+					Les auteurs expriment les sujets de préoccupation par une écriture chargée en figures de style telles que :
+					<ul>
+						<div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;">
+							<div style="flex-basis: 24rem;">
+								<li>La métaphore</li>
+								<li>L'hyperbole</li>
+								<li>L'allégorie</li>
+								<li>L'antithèse et l'oxymore</li>
+							</div>
+							<div style="flex-basis: 24rem;">
+								<li>Le mélange des genres</li>
+								<li>La mise en abyme</li>
+								<li>L'utilisation des verbes de mouvement</li>
+								<li>De multiples personnages et intrigues</li>
+							</div>
+						</div>
+					</ul>
+					Le baroque se décline en deux prolongements opposés : le burlesque et la préciosité.<br />
+					Le premier s'attache à présenter l'instabilité du monde et des êtres de façon ironique, parodique, et même caricaturale.<br />
+					La seconde usera de l'exagération et du grandiloquent dans le raffinement et l'élégance de certains mondains, le thème favori étant l'amour.<br /><br />
+					La littérature baroque peut être qualifiée de littérature de l'excès par opposition au sage classicisme qui lui succèdera à partir de 1660.
+				</div>
+			</div>
+		</div>
+		<div id="slide13" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: column; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
+				<div style="margin: 2rem;">
+					<h3>En France</h3>
+					<ul>
+						<li>Théodore AGGRIPA d'AUBIGNÉ (1552 - 1630) : <i>« les Tragiques »</i> (1616, poésie)</li>
+						<li>SAINT-AMANT (Marc-Antoine GIRARD, sieur de) (1594 - 1661) : <i>« Solitude »</i> (vers 1620, poème)</li>
+						<li>Théophile de VIAU (1590 - 1626) : <i>« Élégie à une dame »</i> (poème)</li>
+						<li>Honoré d'URFÉ (1567 - 1625) : <i>« L'Astrée »</i> (1607-1628, roman)</li>
+						<li>Pierre CORNEILLE (1606 - 1684) : <i>« L'illusion comique »</i> (1639, pièce de théâtre)</li>
+						<li>Paul SCARRON (1610 - 1660) : <i>« Le Roman comique »</i> (1651, roman)</li>
+						<li>Savinien de Cyrano de BERGERAC (1619 - 1655) : <i>« L'Autre monde : les États et Empires de la Lune »</i> (1657, roman)</li>
+						<li>Pierre de MARBEUF : <i>« Recueil de vers »</i> (1628, poésie)</li>
+					</ul>
+				</div>
+					
+				<div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between;">
+					<div class="circle left-come" id="aubigne"> </div>
+					<div class="circle left-come" id="saint-amant"> </div>
+					<div class="circle left-come" id="viau"> </div>
+					<div class="circle left-come" id="urfe"> </div>
+					<div class="circle left-come" id="corneille"> </div>
+					<div class="circle left-come" id="scarron"> </div>
+					<div class="circle left-come" id="bergerac"> </div>
+					<div class="circle left-come" id="marbeuf"> </div>
+				</div>
+			</div>
+		</div>
+		<div id="slide14" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+			<div style="display: flex; flex-direction: column; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-between;">
+				<div style="margin: 2rem;">
+					<h3>Et en Europe...</h3>
+					<ul>
+						<li>Miguel de CERVANTES SAAVEDRA (1547 - 1616 - Espagne) : <i>« Don Quichotte »</i> (1605, roman)</li>
+						<li>William SHAKESPEARE (1564 - 1616 - Angleterre) : <i>« Hamlet »</i> (1603, roman)</li>
+						<li>Christian HOFFMANN VON HOFFMANNSWALDAU (1616 - 1679 - Allemagne) : <i>« Des lettres de héros et d’autres poèmes magnifiques » (1663)</i></li>
+						<li>Jan GAWINSKI (1622 - 1684 - Pologne) : <i>« Le bouclier du christianisme »</i></li>
+						<li>Cavalier Marin (Giambattista Marino - 1569 - 1625 - Italie) : <i>« L'Adone »</i> (1623)</li>
+					</ul>
+				</div>
+					
+				<div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around; margin-left: -4rem; margin-right: -4rem;">
+					<div class="circle left-come" id="cervantes"> </div>
+					<div class="circle left-come" id="shakespeare"> </div>
+					<div class="circle left-come" id="hoffmann"> </div>
+					<div class="circle left-come" id="gawinski"> </div>
+					<div class="circle left-come" id="cavalier-marin"> </div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="slideEnd" style="display: none;">
+			<div class="end-circle">
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			    </div> 
+			  <div class="big">
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			  </div>
+			  <div class="tri"></div>
+			  <div class="squ">
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			  </div>
+			  <div class="end">
+			    <div style="font-family: serif;">E</div>
+			    <div style="font-family: serif;">N</div>
+			    <div style="font-family: serif;">D</div>
+ 			</div>
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+</html>
