@@ -137,7 +137,6 @@ function next4() {
 function next3() {
 	document.getElementById("slide2").style.display = "none";
 	document.getElementById("slide4").style.display = "none";
-	document.getElementsByClassName("slide").style.display = "none";
 	document.getElementById("slide3").style.display = "block";
 	next.onclick = next4;
 	previous.setAttribute("onclick", "next2()");
