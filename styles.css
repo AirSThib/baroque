@@ -889,3 +889,8 @@ animation end
 .slide {
   display: none;	
 }
+
+video {
+  position: relative;
+  z-index: 4;
+}
