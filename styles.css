@@ -878,5 +878,6 @@ animation end
   padding: 0.1rem;
   transition-duration: 0.25s;
   text-align: center;
-  vertical-align: middle !important;	
+  vertical-align: middle !important;
+  margin: 0.4rem;
 }
