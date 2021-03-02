@@ -4,7 +4,6 @@ var next = document.getElementById("next");
 function end() {
 	document.getElementById("slide14").style.display = "none";
 	document.getElementById("slideEnd").style.display = "block";
-	next.onclick = "";
 	previous.setAttribute("onclick", "next14()");
 }
 
