@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body onclick="next1()" id="body">
-		<div id="common">
+		<div id="common" class="slide">
 			<div class="karambolage-rect"></div>
 			<div class="karambolage-circle" id="karambolage-circle"></div>
 			<div class="desc" id="desc">
@@ -15,7 +15,7 @@
 				<p style="font-size: 1rem;">» Cliquer pour continuer</p>
 			</div>
 		</div>
-		<div id="slide1" style="display: none; padding-top: 20vh; text-align: center; text-align: center; font-size: 1.5rem;">
+		<div id="slide1" class="slide" style="display: none; padding-top: 20vh; text-align: center; text-align: center; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 3rem;">
 				<div style="flex-basis: 6rem;">1580</div>
 				<div style="flex-basis: 24rem;" id="baroque-slide1">Baroque</div>
@@ -25,7 +25,7 @@
 			Il s'est progressivement étendu dans toute l'Europe et dans plusieurs disciplines :</p>
 			<!--<p id="europe">Europe</p>-->
 		</div>
-		<div id="slide2" style="display: none; padding-top: 16vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide2" class="slide" style="display: none; padding-top: 16vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 2rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="flex-basis: 12rem; color: #f00;" id="architecture">Architecture
 				<figure style="width: 100%;">
@@ -42,12 +42,12 @@
 				<div style="flex-basis: 12rem; color: #25b873" id="peinture">Peinture
 				<figure style="width: 100%; animation-delay: 8s;">
 					<img src="Medicis.jpg" width="320" />
-					<figcaption>L'apothéose des Médicis de Luca Giordano <br />(palais Medici-Riccardi, Florence, vers 1672, Luca Giordano)</figcaption>
+					<figcaption>L'apothéose des Médicis<br />(palais Medici-Riccardi, Florence, vers 1672, Luca Giordano)</figcaption>
 				</figure>
 				</div>
 			</div>
 		</div>
-		<div id="slide3" style="display: none; padding-top: 20vh; text-align: center; font-size: 1.5rem;">
+		<div id="slide3" class="slide" style="display: none; padding-top: 20vh; text-align: center; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 2rem; justify-content: space-around;">
 				<div style="flex-basis: 12rem; color: #92d;" id="musique">Musique & Danse
 				<figure>
@@ -66,7 +66,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide4" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide4" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 2rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="flex-basis: 12rem; color: #2573b8;" id="theatre">Théâtre
 				<figure style="width: 100%;">
@@ -98,7 +98,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide5" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide5" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 2rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="margin: 2rem;">
 					Le terme « baroque » proviendrait du portugais <i class="blue">barroco</i> qui désigne une perle irrégulière.<br /><br />
@@ -112,7 +112,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide6" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide6" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 3rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="margin: 2rem;">
 					<p class="left-come">
@@ -125,7 +125,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide7" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide7" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="margin: 2rem;">
 					<h3>Des événements historiques</h3>
@@ -144,7 +144,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide8" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide8" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around; text-shadow: 0 0 .2rem #999;">
 				<div style="margin: 2rem;"><div style="z-index: 2; position: relative;">
 					<h3>Des bouleversements scientifiques</h3>
@@ -160,7 +160,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide9" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide9" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
 					<div id="solar-system" style="margin: -8rem;">
 				<div id="neptune-circle">
@@ -189,7 +189,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide10" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide10" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="margin: 2rem;" class="crash">
 					Les esprits et les sens sont chamboulés :<br />
@@ -198,7 +198,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide11" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide11" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="flex-basis: 20rem;">
 					<figure>
@@ -207,7 +207,7 @@
 					</figure>
 				</div>
 				<div style="flex-basis: 36rem;">
-					<p>Des thèmes récurrents se dégagent des différentes œuvres: 
+					<p>Des thèmes récurrents se dégagent des différentes œuvres : 
 					<ul>
 						<li>L'illusion, le rêve (les sens nous trompent)</li>
 						<li>Le changement, la métamorphose (du monde et de l'être)</li>
@@ -228,7 +228,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide12" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide12" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: row; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="margin: 2rem;">
 					Les auteurs expriment les sujets de préoccupation par une écriture chargée en figures de style telles que :
@@ -255,7 +255,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide13" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide13" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: column; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-around;">
 				<div style="margin: 2rem;">
 					<h3>En France</h3>
@@ -283,7 +283,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="slide14" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
+		<div id="slide14" class="slide" style="display: none; padding-top: 8vh; text-align: center; padding-left: 16rem; font-size: 1.5rem;">
 			<div style="display: flex; flex-direction: column; flex-wrap: nowrap; font-size: 1.5rem; margin-left: -12rem; justify-content: space-between;">
 				<div style="margin: 2rem;">
 					<h3>Et en Europe...</h3>
@@ -292,7 +292,7 @@
 						<li>William SHAKESPEARE (1564 - 1616 - Angleterre) : <i>« Hamlet »</i> (1603, roman)</li>
 						<li>Christian HOFFMANN VON HOFFMANNSWALDAU (1616 - 1679 - Allemagne) : <i>« Des lettres de héros et d’autres poèmes magnifiques » (1663)</i></li>
 						<li>Jan GAWINSKI (1622 - 1684 - Pologne) : <i>« Le bouclier du christianisme »</i></li>
-						<li>Cavalier Marin (Giambattista Marino - 1569 - 1625 - Italie) : <i>« L'Adone »</i> (1623)</li>
+						<li>Cavalier MARIN (Giambattista MARINO dit - 1569 - 1625 - Italie) : <i>« L'Adone »</i> (1623)</li>
 					</ul>
 				</div>
 					
@@ -306,7 +306,7 @@
 			</div>
 		</div>
 		
-		<div id="slideEnd" style="display: none;">
+		<div id="slideEnd" class="slide" style="display: none;">
 			<div class="end-circle">
 			    <div></div>
 			    <div></div>
