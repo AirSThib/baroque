@@ -866,8 +866,7 @@ animation end
 }
 
 #previous, #next {
-  position: fixed;
-  right: 1rem;
+  position: relative;
   z-index: 99;
   cursor: pointer;
   outline: none;
