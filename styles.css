@@ -881,4 +881,6 @@ animation end
   vertical-align: middle !important;
   margin: 0.4rem;
   font-size: 1.2rem;
+  text-decoration: none;
+  padding: auto;
 }
