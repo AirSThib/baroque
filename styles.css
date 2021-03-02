@@ -884,3 +884,7 @@ animation end
   text-decoration: none;
   padding: auto;
 }
+
+.slide {
+  display: none;	
+}
